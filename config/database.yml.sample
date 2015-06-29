@@ -1,0 +1,8 @@
+development: &default
+  adapter: postgresql
+  host: localhost
+  database: development
+
+test: &test
+  <<: *default
+  database: test
