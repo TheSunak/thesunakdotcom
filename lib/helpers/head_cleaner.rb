@@ -29,7 +29,7 @@ module Sinatra
       case script
         when :angular    then 'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js'
         when :backbone   then 'http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.0/backbone-min.js'
-        when :jquery     then 'http://code.jquery.com/jquery-latest.min.js'
+        when :jquery     then 'https://code.jquery.com/jquery-latest.min.js'
         when :underscore then 'http://underscorejs.org/underscore-min.js'
         else "/js/#{script}.js"
       end
