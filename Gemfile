@@ -13,6 +13,8 @@ gem 'sinatra-redirect-with-flash'
 
 gem 'rake'
 
+gem 'foreman'
+
 group :development, :test do
   gem 'tux'                       # CLI for models / methods.
 
@@ -24,4 +26,3 @@ group :development, :test do
   gem 'factory_girl'              # Test tool for factories.
   gem 'rspec'                     # Ruby testing framework.
 end
-
